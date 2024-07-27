@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: LeoSall Tech Node.js ${{ matrix.node_version }}
       uses: actions/setup-node@v4
-      with:
+      with: leonesalltech.com
         node-version: ${{ matrix.node_version }}
 
     - name: npm install, build and test
